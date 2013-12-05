@@ -983,5 +983,5 @@ void Adafruit_NeoPixel::setBrightness(uint8_t b) {
 }
 
 uint8_t Adafruit_NeoPixel::getBrightness() {
-  return brightness;
+  return brightness - 1;
 }
